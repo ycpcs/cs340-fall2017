@@ -1,0 +1,223 @@
+#wrap {
+	position: absolute;
+	background: #f0f0f0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 52em;
+	margin: 0 auto;
+}
+
+#content {
+	margin: 0 auto;
+	background: #f0f0f0;
+	padding: 0px 2em;
+}
+
+#header {
+	border-top: 2px solid #354B99;
+	border-bottom: 2px solid #354B99;
+	color: black;
+	background: #99AFFF;
+	font-size: 200%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#header a {
+	text-decoration: none;
+	color: #444;
+}
+
+#header a:hover {
+	background: black;
+	color: white;
+}
+
+#footer {
+	margin-top: 30px;
+	padding: 10px 30px;
+	text-align: center;
+	border-top: 2px solid #354B99;
+	border-bottom: 2px solid #354B99;
+	background: #99AFFF;
+	color: black;
+}
+
+#footer a {
+	color: #444;
+	text-decoration: none;
+}
+
+#footer-pad {
+	height: 10px;
+}
+
+#subtitle {
+	font-size: 120%;
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 1.5em;
+}
+
+/* Minor tweak to get the CC image link to align nicely with the footer text */
+a.cc-img {
+	vertical-align: -2px;
+}
+
+#topnav {
+	text-align: center;
+	padding: 4px 16px;
+}
+
+#topnav_inner {
+	margin-left: 80px;
+	margin-right: 80px;
+	line-height: 2;
+}
+
+#topnav a {
+	border: 2px solid #354B99;
+	border-radius: 16px;
+	padding: 4px 12px;
+	text-decoration: none;
+	background: #99AFFF;
+	color: black;
+}
+
+#topnav a:hover {
+	background: #354B99;
+	color: white;
+	border: 2px solid #354B99;
+}
+
+html {
+	min-height: 100%;
+	font-family: serif;
+}
+
+html, body {
+	margin: 0px 0px;
+	/*background: #b0a1ba;*/
+	/*background: #4561c7;*/
+	background: #354B99;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	color: #16302b;
+}
+
+h1 {
+	margin-top: 32px;
+	border-top: 2px solid #354B99;
+	border-bottom: 2px solid #354B99;
+	font-size: 180%;
+	text-align: center;
+}
+
+h2, h3 {
+	border-bottom: 1px solid #354B99;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 120%;
+}
+
+table {
+	border-collapse: collapse;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 32px auto;
+}
+
+th {
+	border-bottom: 1px solid black;
+	text-align: left;
+}
+
+th, td {
+	padding: 4px 8px;
+}
+
+tr:nth-child(even) {
+	background: #ddd;
+}
+
+pre, code, tt {
+	font-family: monospace;
+}
+
+pre {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 8px;
+	border: 1px solid #bbb;
+	overflow: auto; /* scroll if doesn't fit within page */
+	background: #ddd;
+}
+
+dt {
+	margin-top: 8px;
+}
+
+.callout {
+	background: #fbb;
+	border: 4px solid red;
+	border-radius: 24px;
+	padding: 10px 40px;
+	margin-bottom: 24px;
+}
+
+.parimg {
+	float: right;
+	margin-left: 32px;
+}
+
+.clear {
+	clear: both;
+}
+
+.sourceref {
+	font-size: 80%;
+}
+
+.topic-sc, .topic-art, .topic-mus, .topic-hum, .topic-sci, .topic-phy {
+	width: 2em;
+	display: inline-block;
+	text-align: center;
+}
+
+.topic-sc {
+	background: yellow;
+}
+
+.topic-art {
+	background: #4169E1;
+	color: white;
+}
+
+.topic-mus {
+	background: #deb887;
+}
+
+.topic-hum {
+	background: #008080;
+	color: white;
+}
+
+.topic-sci {
+	background: #cc0033;
+	color: white;
+}
+
+.topic-phy {
+	background: #9900cc;
+	color: white;
+}
