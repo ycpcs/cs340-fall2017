@@ -83,7 +83,7 @@ Your overall grade for the course will be determined as follows:
 -   Homework and programming assignments: 30%
 -   Midterm exams: 40% (20% each)
 -   Final exam: 20%
--   Attendance/participation: 10%
+-   Quizzes, labs, attendance/participation: 10%
 
 ### Course website
 
@@ -111,9 +111,18 @@ The following policy pertains to homework and graded (individual) programming as
 
 Exams must be completed individually.
 
-Lab assignments are not graded&mdash;therefore, you may work with other students on them.
+You may work with other students on lab activities.
 
 Any violation of the course's academic integrity policy will be referred to the Dean of Academic Affairs, and could have consequences ranging from a 0 on an assignment to dismissal from the college.
+
+### Lab Policy
+
+In order to receive credit for completing a lab, you need to get a sign-off from your instructor *in person*.  There are two options for this:
+
+1. For 100% of full credit: Get a sign-off by the end of the *next* class (i.e., the class that follows the one in which we work on the lab in class.)
+2. For 80% of full credit: Get a sign-off sometime before the next exam.
+
+I *strongly* recommend that you work on the labs before you come to class, so that when you come to class, you have made a good start on it and are ready to ask questions about it.
 
 ### Late Assignments
 
@@ -121,7 +130,7 @@ Late assignments will be marked down 10% per day late. **No credit will be given
 
 ### Exams
 
-No make-up exams will be given without approval of the instructor prior to class unless proof of extreme emergency or illness is provided. All exams will be open book and open notes.
+No make-up exams will be given without approval of the instructor prior to class unless proof of extreme emergency or illness is provided.
 
 ### Attendance and Participation
 
