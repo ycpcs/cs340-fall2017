@@ -1,0 +1,55 @@
+main:
+	; Create the initial stack frame with room for given
+	; number of arguments and locals.
+
+	; create room for one local variable: you may want to increase this
+	enter 0, 2
+
+	; Local variables:
+	; 0: the value of N
+	; 1: current sum
+	; -- you can add other local variables --
+
+	ldc_i 5			; this is the value of N
+	stlocal 0		; store it in local variable 0
+
+	ldc_i 0			; initial sum value
+	stlocal 1		; store it in local variable 1
+
+	; Compute the sum of the integers 1..N
+loop:
+	; while (N > 0) {
+	ldlocal 0		; load N
+	ldc_i 0			; constant 0
+	cmp				; compare them
+	jlte done
+
+	; sum = sum + N
+	ldlocal 1
+	ldlocal 0
+	add
+	stlocal 1
+
+	; N = N - 1
+	ldlocal 0
+	ldc_i 1
+	sub
+	stlocal 0
+
+	; }
+
+	jmp loop
+
+done:
+	; print sum
+	ldlocal 1
+	syscall $println
+	pop
+
+	; Note: the ret instruction requires that there is
+	; at least one operand on the operand stack.
+	ldc_i 0 ; dummy value
+
+	ret
+
+; vim:filetype=asm

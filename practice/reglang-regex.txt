@@ -1,0 +1,5 @@
+(ab)*(a|e)|(ba)*(b|e)
+aba(a|b)*bb
+(b|(aaa*))*
+a(a|b|cc*a)*(cc*|e)
+(aa|bb|abba|baab|abab|baba)*(aba|b)(aa|bb|abba|baab|abab|baba)*

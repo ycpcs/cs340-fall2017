@@ -1,0 +1,65 @@
+main:
+	; The main procedure has no parameters or locals
+	enter 0, 0
+
+	; Compute the sum of the integers from 1..5
+	ldc_i 5
+	call sumints
+
+	; print sum
+	syscall $println
+	pop
+
+	; Note: the ret instruction requires that there is
+	; at least one operand on the operand stack.
+	ldc_i 0 ; dummy value
+
+	ret
+
+; Procedure to compute the sum of the integers from 1
+; to whatever maximum integer is passed as the parameter.
+sumints:
+	; Set up the stack frame:
+	; one parameter, two local variables
+	enter 1, 2
+
+	; Local variables:
+	; 0: the value of N
+	; 1: current sum
+	; -- you can add other local variables --
+
+	ldarg 0			; this is the value of N
+	stlocal 0		; store it in local variable 0
+
+	ldc_i 0			; initial sum value
+	stlocal 1		; store it in local variable 1
+
+loop:
+	; while (N > 0) {
+	ldlocal 0		; load N
+	ldc_i 0			; constant 0
+	cmp			; compare them
+	jlte done
+
+	; sum = sum + N
+	ldlocal 1
+	ldlocal 0
+	add
+	stlocal 1
+
+	; N = N - 1
+	ldlocal 0
+	ldc_i 1
+	sub
+	stlocal 0
+
+	; }
+
+	jmp loop
+
+done:
+	; Return the sum
+	ldlocal 1
+	ret
+
+; vim:filetype=asm
