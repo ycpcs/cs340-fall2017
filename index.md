@@ -20,4 +20,5 @@ This is the website for CS 340, Fall 2017 at York College.  All information abou
 
 ## News
 
+* **Sep 8** &mdash; [Assignment 2](assign/assign02.html) is due Friday, Sept 15th by 11:59 PM.
 * **Aug 29** &mdash; Welcome back!  [Assignment 1](assign/assign01.html) is due Friday, Sept 8th by 11:59 PM.
