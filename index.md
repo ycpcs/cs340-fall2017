@@ -20,5 +20,6 @@ This is the website for CS 340, Fall 2017 at York College.  All information abou
 
 ## News
 
+* **Sep 14** &mdash; The description of [Assignment 2](assign/assign02.html) has been updated with a clarification about multiple input symbols on a single transition.
 * **Sep 8** &mdash; [Assignment 2](assign/assign02.html) is due Monday, Sept 18th by 11:59 PM.
 * **Aug 29** &mdash; Welcome back!  [Assignment 1](assign/assign01.html) is due Friday, Sept 8th by 11:59 PM.

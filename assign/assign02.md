@@ -24,6 +24,14 @@ If the problem asks for a deterministic finite automaton, make sure that your au
 
 **Important**: For all of your finite automata, make sure that each transition is labeled with either a *single* input symbol, or lambda (λ), which is how JFLAP denotes an epsilon transition (a transition that does not consume a symbol from the input string.) JFLAP allows transitions to consume multiple input symbols, but please do not use this feature.
 
+Note that JFLAP will display multiple transitions from one state to another with a single arrow, and will "stack" the accepted input symbols.  This is absolutely fine, since it is actually multiple transitions on various single input symbols, rather than a single transition consuming multiple input symbols.  For example, the following situation is fine:
+
+> ![This is fine](img/assign02/multigood.png)
+
+The following situation is *not* acceptable:
+
+> ![This is not fine](img/assign02/multibad.png)
+
 Problem 1
 ---------
 
