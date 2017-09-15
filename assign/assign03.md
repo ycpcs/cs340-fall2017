@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 3: JSON Parser"
 ---
 
-**Due**: Friday, Sept 23rd by 11:59 PM
+**Due**: Monday, Sept 25th by 11:59 PM
 
 Getting Started
 ===============
@@ -198,7 +198,15 @@ Your parser will be graded according the following criteria:
 
 # Submitting
 
-When you are done, submit the lab to the Marmoset server as described below.
+When you are done, submit the lab to the Marmoset server using one of the methods below.
+
+## From Eclipse
+
+If you have the [Simple Marmoset Uploader Plugin](../resources/index.html) installed, select the project (**CS340\_Assign03**) in the package explorer and then press the blue up arrow button in the toolbar. Enter your Marmoset username and password when prompted.
+
+This is the recommended way to submit your work.
+
+## From a web browser
 
 Save the project (**CS340\_Assign03**) to a zip file by right-clicking it and choosing
 
@@ -206,6 +214,6 @@ Save the project (**CS340\_Assign03**) to a zip file by right-clicking it and ch
 
 Upload the saved zip file to the Marmoset server as **assign03**. The server URL is
 
-> [https://cs.ycp.edu/marmoset/](https://cs.ycp.edu/marmoset/)
+> <https://cs.ycp.edu/marmoset/>
 
-**Important**: after you submit, log into the submission server and verify that the correct files were uploaded. You are responsible for ensuring that you upload the correct files. I may assign a grade of 0 for an incorrectly submitted assignment.
+Use this method only if there is some reason why you can't use the plugin.

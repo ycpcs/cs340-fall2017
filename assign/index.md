@@ -11,9 +11,9 @@ All assignments are due by 11:59 PM on the due date.
 > ---------- | ---- | ---
 > [Assignment 1: Regular expressions](assign01.html) | n/a | Fri, Sep 8th
 > [Assignment 2: Finite automata](assign02.html) | n/a | Monday, Sep 18th
+> [Assignment 3: JSON Parser](assign03.html) | [CS340\_Assign03.zip](CS340_Assign03.zip) | Monday, Sep 25th
 
 <!--
-> [Assignment 3: JSON Parser](assign03.html) | [CS340\_Assign03.zip](CS340_Assign03.zip) | Fri, Sep 23rd
 > [Assignment 4: Clojure MOOC](assign04.html) | n/a | Milestone 1: Wednesday, Oct 12th<br>Milestone 2: Wednesday, Oct 19th<br>Milestone 3: Friday, Oct 21st
 > [Assignment 5: Boolean Function Synthesis](assign05.html) | n/a | Friday, Nov 4th
 > [Assignment 6: Parsing](assign06.html) | [cs340-assign06.zip](cs340-assign06.zip) | Thursday, Nov 17th
