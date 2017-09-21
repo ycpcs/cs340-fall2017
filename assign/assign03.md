@@ -62,7 +62,7 @@ For the **parseOptFieldList** and **parseOptValueList** methods, the issue is de
 
 For the **parseFieldList** and **parseValueList** methods, the issue is whether a single item (*Field* or *Value*) will be generated, or whether more than one item will be generated. A good approach is to start by expanding one item (i.e., call **parseField** or **parseValue**), then check to see whether then next token is a comma. A comma will indicate that the list continues past the first item, and so a recursive call to **parseFieldList**/**parseValueList** should be made.
 
-**Important**: Your parser must reject inputs that can't be derived from the grammar by throwing a **ParserException**.  For example, note how the **parseValue** method raises an exception if the input string is empty.  Make sure your parse functions raise an exception if an unexpected token is seen.  (Using the **expect** method may be useful.)
+**Important**: Your parser must reject inputs that can't be derived from the grammar by throwing a **ParserException** (or **LexerException**, either is fine).  For example, note how the **parseValue** method raises an exception if the input string is empty.  Make sure your parse functions raise an exception if an unexpected token is seen.  (Using the **expect** method may be useful.)
 
 Testing
 -------

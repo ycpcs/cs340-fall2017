@@ -20,6 +20,7 @@ This is the website for CS 340, Fall 2017 at York College.  All information abou
 
 ## News
 
+* **Sep 21** &mdash; The description of [Assignment 3](assign/assign03.html) has been updated to indicate how the parser should indicate that the parse has failed.
 * **Sep 19** &mdash; The first practice exam on the [Practice Exams](practice/index.html) has been updated (it was originally an incomplete draft, and is now a complete exam.)
 * **Sep 15** &mdash; [Assignment 3](assign/assign03.html) is due Monday, Sept 25th by 11:59 PM.
 * **Sep 14** &mdash; The description of [Assignment 2](assign/assign02.html) has been updated with a clarification about multiple input symbols on a single transition.
