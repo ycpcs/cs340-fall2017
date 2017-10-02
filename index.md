@@ -20,6 +20,7 @@ This is the website for CS 340, Fall 2017 at York College.  All information abou
 
 ## News
 
+* **Oct 2** &mdash; [Assignment 4](assign/assign04.html) has been posted.  The first milestone is due by Friday, Oct 13th.
 * **Sep 26** &mdash; You may bring one page of *hand written* notes to the exam on Thursday.
 * **Sep 22** &mdash; A solution to the first practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Sep 21** &mdash; The description of [Assignment 3](assign/assign03.html) has been updated to indicate how the parser should indicate that the parse has failed.

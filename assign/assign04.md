@@ -5,11 +5,9 @@ title: "Assignment 4: Clojure MOOC"
 
 **Due**:
 
-* Milestone 1 is due Wednesday, Oct 12th
-* Milestone 2 is due Wednesday, Oct 19th
-* Milestone 3 is due Friday, Oct 21st
-
-**Note**: This assignment will not be graded.
+* Milestone 1 is due Friday, Oct 13th
+* Milestone 2 is due Friday, Oct 20th
+* Milestone 3 is due Friday, Oct 27th
 
 # Learning Clojure
 
@@ -74,3 +72,7 @@ To test your functions interactively (highly recommended!):
 2. Run the command `lein repl` to start a read-eval-print loop.
 3. Enter <code>(use '<i>namespace</i>)</code>, where *namespace* is the namespace defined for the chapter, e.g., `i-am-a-horse-in-the-land-of-booleans`
 4. Now you can call functions defined in your source code.  If you modify your code, you can run <code>(use '<i>namespace</i> :reload)</code> to reload your code in the REPL session.
+
+# Sign-off
+
+Please see me for each milestone so I can sign off on your progress.
