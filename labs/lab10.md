@@ -79,6 +79,7 @@ What happens when you do this?  (Ok, it's not really computing a total price, bu
 
 Come up with a way to use the `map` function (as shown above) to compute a single price for an invoice.  Hint: research the built-in `reduce` function.
 
+<!--
 When you get this working, show me what you did.
 
 # Solution
@@ -86,6 +87,7 @@ When you get this working, show me what you did.
 When you are done, you can compare your solution to mine:
 
 > [lab10-solution.clj](lab10-solution.clj)
+-->
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
