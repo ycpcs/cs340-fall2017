@@ -25,7 +25,7 @@ You can find the chapters on the [Material and course content](http://iloveponie
 
 The **Basic tools** chapter covers the software you will need.
 
-I recommend using Eclipse with the [Counterclockwise](https://code.google.com/p/counterclockwise/) plugin.  You can install this through the Eclipse marketplace (search for "counterclockwise").
+I recommend using Eclipse with the [Counterclockwise](https://github.com/ccw-ide/ccw/wiki/GoogleCodeHome) plugin.  You can install this through the Eclipse marketplace (search for "counterclockwise").
 
 As an alternative to Eclipse and Counterclockwise, you can try using [Light Table](http://www.lighttable.com/).  You can also use [Emacs](https://www.gnu.org/software/emacs/) as described in the textbook.
 
