@@ -5,6 +5,12 @@ title: "Resources"
 
 This page has links to some useful resources for the course.
 
+# Linux sign-in
+
+The following instructions explain how to map your YCP network home drive on the Linux computers in KEC 119:
+
+> [linux\_sign\_in.pdf](linux_sign_in.pdf)
+
 # JFLAP
 
 Create and test finite automata and Turing Machines.
