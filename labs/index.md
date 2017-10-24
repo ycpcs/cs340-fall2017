@@ -30,7 +30,7 @@ I *strongly* recommend that you work on the labs before you come to class, so th
 > Thurs, Oct 12 | [Lab 12: Tic Tac Toe](lab12.html) | [cs340-lab12.zip](cs340-lab12.zip)
 > Tues, Oct 17 | Fall break, no class
 > Thurs, Oct 19 | [Lab 13: Recursion in Clojure](lab13.html) | n/a
-> Tues, Oct 24 | Recursion review
+> Tues, Oct 24 | [Lab 13.5: Merge sort in Clojure](lab13_5.html) | n/a
 > Thurs, Oct 26 | No lab
 > Tues, Oct 31 | [Lab 14: Recursive List Processing in Prolog](lab14.html) | n/a
 > Thurs, Nov 2 | [Lab 15: Clojure macros](lab15.html) | n/a
