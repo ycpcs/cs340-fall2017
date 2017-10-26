@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 5: Boolean Function Synthesis"
 ---
 
-Due: **Friday, Nov 4th** by 11:59 PM
+Due: **Wednesday, Nov 8th** by 11:59 PM
 
 Getting Started
 ===============
