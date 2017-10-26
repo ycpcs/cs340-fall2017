@@ -13,7 +13,7 @@ title: "Assignment 4: Clojure MOOC"
 
 We will be using [Clojure](http://clojure.org/) for a series of programming assignments.
 
-The [Functional programming with Clojure](http://mooc.fi/courses/2014/clojure/index.html) MOOC at the University of Helsinki is a truly excellent way to learn Clojure.  In this assignment you will work on the first four chapters.  There are two Milestones:
+The [Functional programming with Clojure](http://mooc.fi/courses/2014/clojure/index.html) MOOC at the University of Helsinki is a truly excellent way to learn Clojure.  In this assignment you will work on the first eight chapters.  There are three Milestones:
 
 * Milestone 1: Complete **Basic tools**, **Training day**, and **I am a horse in the land of booleans**
 * Milestone 2: Complete **Structured data** and **P-P-P-Pokerface** (look over **Style** as well, although there are no problems in that chapter)
