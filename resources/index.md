@@ -37,6 +37,10 @@ Run it as follows:
 
       java -jar regexToolkit.jar equiv
 
+# Minimal Clojure environment
+
+See the [Minimal clojure environment](minimal_clojure.html) page for instructions on setting up a minimal Clojure environment under Linux or MacOS.  If you're running Windows, then consider running Linux in a Virtual Machine.  I recommend Ubuntu 16.04 as a Linux distribution.
+
 # Clojure resources
 
 * [ClojureDocs.org](http://www.clojuredocs.org/) has documentation and examples for the built-in Clojure functions

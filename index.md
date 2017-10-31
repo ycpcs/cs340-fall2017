@@ -20,6 +20,7 @@ This is the website for CS 340, Fall 2017 at York College.  All information abou
 
 ## News
 
+* **Oct 31** &mdash; Instructions for setting up a [minimal Clojure environment](resources/minimal_clojure.html) have been added to the [Resources](resources/index.html) page.
 * **Oct 26** &mdash; [Assignment 5](assign/assign05.html) has been posted, due Wednesday, Nov 8th by 11:59 PM.
 * **Oct 18** &mdash; The deadlines for Milestones 2 and 3 of [Assignment 4](assign/assign04.html) have been moved back to Wednesday, Oct 25th and Wednesday, Nov 1st (respectively).  Also, the [Schedule](schedule.html) has been updated to move Exam 2 to Thursday, Nov 16th.
 * **Oct 10** &mdash; The [Resources](resources/index.html) page has information on how to map your network home drive on the computers in KEC 119.
