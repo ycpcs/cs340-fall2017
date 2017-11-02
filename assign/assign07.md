@@ -3,8 +3,6 @@ layout: default
 title: "Assignment 7: Abstract Syntax Trees"
 ---
 
-*Update: 11/29* &mdash; Updated to mention problem with the `recur-on-children` function, changed due date
-
 **Due**: Tuesday, Dec 6th by 11:59 PM
 
 # Getting Started
@@ -24,15 +22,6 @@ There are three things that your **build-ast** function should do:
 * All nonterminal nodes that have a single child should be eliminated.  The only exception is the **:unit** node at the root of the parse tree, which should be preserved.
 * **:statement\_list** nodes should be simplified so that all of the statements are direct children of the statement list node.
 * All terminal nodes should be eliminated, unless they contain information that is important.  For example, "punctuation" nodes such as **:lparen**, **:semicolon** should be eliminated, but **:identifier**, **:int\_literal**, and **str\_literal** nodes should be preserved
-
-# Corrected version of `recur-on-children`
-
-The original version of the `recur-on-children` function was incorrect: please replace it with the following code:
-
-{% highlight clojure %}
-(defn recur-on-children [node]
-  (node/make-node (:symbol node) (map build-ast (node/children node))))
-{% endhighlight %}
 
 # Hints
 
