@@ -37,7 +37,7 @@ I *strongly* recommend that you work on the labs before you come to class, so th
 > Tues, Nov 7 | [Lab 16: Clojure Review 1](lab16.html) | [cs340-lab16.zip](cs340-lab16.zip)
 > Thurs, Nov 9 | [Lab 17: Clojure Review 2](lab17.html) | [cs340-lab17.zip](cs340-lab17.zip)
 > Tues, Nov 14 | [Lab 18: Clojure Review 3](lab18.html) | [cs340-lab18.zip](cs340-lab18.zip)
-> Thurs, Nov 16 | [Lab 19: MiniVM programming](lab19.html) | [CS340\_Lab19.zip](CS340_Lab19.zip)
-> Tues, Nov 21 | **Exam 2**
+>Thurs, Nov 16 | **Exam 2**
+> Tues, Nov 21  | [Lab 19: MiniVM programming](lab19.html) | [CS340\_Lab19.zip](CS340_Lab19.zip)
 > Thurs, Nov 23 | Thanksgiving vacation, no class
 > Tues, Nov 28th | [Lab 20: Tail-recursive list merge in Erlang](lab20.html) | [sort.erl](../lectures/sort.erl)
