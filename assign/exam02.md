@@ -5,7 +5,7 @@ title: "Allowed resources for Exam 2"
 
 This page lists which resources are allowed for use during Exam 2.
 
-You may use your textbook, the [course website](http://ycpcs.github.io/cs340-fall2016), the [Clojure MOOC](http://mooc.fi/courses/2014/clojure/) website, the [clojure.org](http://clojure.org/) website, and the [clojuredocs.org](http://clojuredocs.org/) website.
+You may use your textbook, the [course website](http://ycpcs.github.io/cs340-fall2017), the [Clojure MOOC](http://mooc.fi/courses/2014/clojure/) website, the [clojure.org](http://clojure.org/) website, and the [clojuredocs.org](http://clojuredocs.org/) website.
 
 You may use any printed or written notes that you bring with you.
 
