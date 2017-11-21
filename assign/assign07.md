@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 7: Abstract Syntax Trees"
 ---
 
-**Due**: Tuesday, Dec 6th by 11:59 PM
+**Due**: Tuesday, Dec 5th by 11:59 PM
 
 # Getting Started
 

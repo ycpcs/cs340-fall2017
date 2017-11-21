@@ -20,6 +20,7 @@ This is the website for CS 340, Fall 2017 at York College.  All information abou
 
 ## News
 
+* **Nov 21** &mdash; [Assignment 7](assign/assign07.html) is due Tuesday, Dec 5th by 11:59 PM.
 * **Nov 7** &mdash; A second practice exam has been posted to the [Practice Exams](practice/index.html) page.
 * **Nov 2** &mdash; [Assignment 6](assign/assign06.html) has been posted, due Friday, Nov 17th by 11:59 PM.
 * **Oct 31** &mdash; Instructions for setting up a [minimal Clojure environment](resources/minimal_clojure.html) have been added to the [Resources](resources/index.html) page.
