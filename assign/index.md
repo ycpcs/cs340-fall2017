@@ -16,7 +16,4 @@ All assignments are due by 11:59 PM on the due date.
 > [Assignment 5: Boolean Function Synthesis](assign05.html) | n/a | Wednesday, Nov 8th
 > [Assignment 6: Parsing](assign06.html) | [cs340-assign06.zip](cs340-assign06.zip) | Friday, Nov 17th
 > [Assignment 7: Abstract Syntax Trees](assign07.html) | [cs340-assign07.zip](cs340-assign07.zip) | Tuesday, Dec 5th
-
-<!--
-> [Assignment 8: Code Generation](assign08.html) | [cs340-assign08.zip](cs340-assign08.zip) | Tuesday, Dec 13th
--->
+> [Assignment 8: Code Generation](assign08.html) | [cs340-assign08.zip](cs340-assign08.zip) | Tuesday, Dec 12th
