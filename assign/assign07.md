@@ -5,6 +5,8 @@ title: "Assignment 7: Abstract Syntax Trees"
 
 **Due**: Tuesday, Dec 5th by 11:59 PM
 
+*Update 12/1*: Added a hint about implementing `flatten-statement-list`
+
 # Getting Started
 
 Download [cs340-assign07.zip](cs340-assign07.zip).
@@ -40,6 +42,17 @@ The **node/get-child** function takes a parse node and an integer *n*, and retur
 The **recur-on-children** function takes a parse node as a parameter, and returns an AST node whose symbol is the same as the parse node, and whose children are ASTs constructed from the children of the parse node.  (Hint: this should be useful for nodes representing binary operators.)
 
 **:primary** nodes representing parenthesized expressions will require special handling: specifically, the *second* child should be recursively turned into an AST, rather than the first child (which is the correct approach for the other kinds of primary expressions.)
+
+Implementing the `flatten-statement-list` requires accumulating all of the reachable `:statement` nodes, converting them to a sequence of ASTs, and creating a `:statement_list` AST with the `:statement` ASTs as children.  As a way of getting started, here is an implementation of `flatten-statement-list` that correctly handles the first statement:
+
+{% highlight clojure %}
+(defn flatten-statement-list [node]
+  (let [stmt (node/get-child node 0)
+        stmt-ast (build-ast stmt)]
+    (node/make-node :statement_list [stmt-ast])))
+{% endhighlight %}
+
+The full version of `flatten-statement-list` should use a `loop/recur` construct to recursively find all of the statements and convert them to ASTs.
 
 # Testing
 
