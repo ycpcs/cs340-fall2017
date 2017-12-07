@@ -20,6 +20,7 @@ This is the website for CS 340, Fall 2017 at York College.  All information abou
 
 ## News
 
+* **Dec 7** &mdash; A practice final exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Dec 1** &mdash; The description for [Assignment 7](assign/assign07.html) has been updated to include a hint about implementing the `flatten-statement-list` function.
 * **Nov 30** &mdash; [Assignment 8](assign/assign08.html) is due Tuesday, Dec 12th by 11:59 PM.
 * **Nov 21** &mdash; [Assignment 7](assign/assign07.html) is due Tuesday, Dec 5th by 11:59 PM.
