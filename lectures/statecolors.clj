@@ -76,6 +76,19 @@
 (def state-colors
   (vec (repeatedly (count state-adjacency-list) (fn [] (ref :red)))))
 
+; Reset all of the state colors back to red.
+; This is helpful if the computation fails because
+; it cannot make progress due to a "deadlocked"
+; configuration of states.
+(defn reset-state-colors []
+  (loop [r state-colors]
+    (if (empty? r)
+      true
+      (do
+        (dosync
+          (ref-set (first r) :red))
+        (recur (rest r))))))
+
 ; Get a list of adjacent states given the index of a state
 (defn get-neighbors [index]
   (rest (nth state-adjacency-list index)))
